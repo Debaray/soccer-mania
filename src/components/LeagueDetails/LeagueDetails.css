@@ -12,3 +12,13 @@
 .banner-design{
     padding : 150px 0px;
 }
+.league-details{
+    border:2px solid red;
+    border-radius: 5px;
+}
+.league-info{
+    color:white;
+}
+.image-design{
+    width:60%;
+}
