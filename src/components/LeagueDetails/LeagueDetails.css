@@ -1,0 +1,14 @@
+.league-banner{
+    text-align: center;
+    background-image: url(../../Images/league-background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.leagues-style{
+    background-color: rgb(3, 3, 48);
+}
+.banner-design{
+    padding : 150px 0px;
+}

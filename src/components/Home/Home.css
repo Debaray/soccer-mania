@@ -1,0 +1,21 @@
+.main-banner{
+    text-align: center;
+    background-image: url(../../Images/Rectangle\ 28.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.banner-text-design{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 150px 0px;
+    color:white;
+    font-size: 3em;
+    font-weight:700;
+}
+.Montserrat-font{
+    font-family: 'Montserrat', sans-serif;
+}
+.leagues-style{
+    background-color: rgb(3, 3, 48);
+}
