@@ -15,22 +15,23 @@ const Home = () => {
     const soccerLeagues = leagues.filter(league => league.strSport === sportName);
 
     return (
-        <div className="leagues-style">
-            <div className="row">
-                <div className="main-banner col-sm-12">
-                    <h1 className="banner-text-design Montserrat-font">Soccer Mania</h1>
+        <div className="body">
+            <div className="leagues-style">
+                <div className="row">
+                    <div className="main-banner col-sm-12">
+                        <h1 className="banner-text-design Montserrat-font">Soccer Mania</h1>
+                    </div>
                 </div>
-            </div>
-            <div className="mt-5 container leagues-style">
-                <div className="row text-center justify-content-center">
-                    {
-                        soccerLeagues.map(league => <League key={league.idLeague} league={league}></League>)
-                    }
+                <div className="mt-5 container leagues-style">
+                    <div className="row text-center justify-content-center">
+                        {
+                            soccerLeagues.map(league => <League key={league.idLeague} league={league}></League>)
+                        }
+                    </div>
                 </div>
-
+                <p className="footer"><small>All rights reserved. ©Debashis Ray,2021.</small></p>
             </div>
         </div>
     );
 };
-
 export default Home;

@@ -8,17 +8,40 @@
 }
 .leagues-style{
     background-color: rgb(3, 3, 48);
+   
 }
 .banner-design{
     padding : 150px 0px;
+    width: 80%;
 }
 .league-details{
-    border:2px solid red;
-    border-radius: 5px;
+    border-radius: 15px;
+    background-color: #3A42FF;
 }
 .league-info{
     color:white;
 }
 .image-design{
+    padding : 1% 0;
+}
+.image-logo{
+    width:5%;
+}
+.league-details-info{
+    color:white;
+}
+.Montserrat-font{
+    font-family: 'Montserrat', sans-serif;
+}
+.league-info h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+.social-media{
+    padding: 10px 5px;
     width:60%;
+}
+.footer{
+    color:white;
+    text-align:center;
 }

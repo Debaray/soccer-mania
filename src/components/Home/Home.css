@@ -1,7 +1,11 @@
+.body{
+    margin: 0px;
+    width: 100%;
+}
 .main-banner{
     text-align: center;
     background-image: url(../../Images/Rectangle\ 28.png);
-    background-size: auto;
+    background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
     
@@ -18,4 +22,8 @@
 }
 .leagues-style{
     background-color: rgb(3, 3, 48);
+}
+.footer{
+    color:white;
+    text-align:center;
 }

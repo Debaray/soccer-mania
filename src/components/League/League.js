@@ -32,5 +32,4 @@ const League = (props) => {
             </Card> 
     );
 };
-
 export default League;
