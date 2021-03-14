@@ -5,7 +5,7 @@ import './LeagueDetails.css';
 import image from '../../Images/male.png';
 import found from '../../Icon/found 1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFlag ,faFutbol,faVenusMars,faTwitter} from '@fortawesome/free-solid-svg-icons';
+import { faFlag ,faFutbol,faVenusMars} from '@fortawesome/free-solid-svg-icons';
 import { SocialIcon } from 'react-social-icons';
 
 const LeagueDetails = () => {
@@ -21,7 +21,7 @@ const LeagueDetails = () => {
     const twitterUrl = `https://${leagues.map(league =>league.strTwitter)}`;
     const facebookUrl = `https://${leagues.map(league =>league.strFacebook)}`;
     const youtubeUrl = `https://${leagues.map(league =>league.strFacebook)}`;
-    
+
     return (
         <div className="leagues-style">
             <div className="league-banner col-sm-12">
